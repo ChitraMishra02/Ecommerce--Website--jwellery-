@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Contact Me</title>
+         <meta charset="UTF-8">
+         <meta name="viewport"content=width=device-width,intial-scale="1.0">
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+
+         <style>
+             body{
+                 background-color:rgb(15,12,41);
+                 color:orangered;
+             }
+
+             .wrapper{
+                   border:1px solid lightgrey;
+                   background-color: white;
+             }
+           
+             .Contact {
+                  width:50%;
+                  height:400px;
+                  margin:0 auto; 
+                  background: rgb(15,12,41);
+                  background: linear-gradient(117deg, rgba(15,12,41,1) 0%, rgba(37,37,65,1) 95%);
+                  text-align: center;
+                  border-radius:10px;
+                  box-shadow:10px 10px;
+                  margin-top:80px;
+                  
+             }
+             h2{
+                 margin-top:20px;
+             }
+             form input{
+                      border:none;
+                      border-bottom:1px solid lightgray;
+                      width:350px;
+                      background-color: transparent;
+                      margin-top:20px;
+                      
+
+             }
+             button{
+                   width:100px;
+                    
+             }
+             
+             .btn {
+                  background-color: orangered;
+                  border:none;
+             }
+             .btn:hover{
+                 background-color: orangered;
+             }
+
+         </style>
+         
+    </head>
+    
+
+    <body>
+
+
+        <div class="container">
+
+           <div class="Contact"> 
+
+          <h2>Contact Us</h2>
+
+          <form action="#">
+
+           <input type="text"  placeholder="First-Name" id="fname">
+           <br>
+           <span id="mname"></span>
+
+           <br>
+
+           
+           <input type="text" placeholder="Last-Name"id="lname">
+           <br>
+           <span id="mlname"></span>
+
+           <br>
+
+           <input type="email"placeholder="Email"id="email">
+           <br>
+           <span id="memail"></span>
+
+
+           <br>
+           
+           <input type="message" placeholder="Message" id="message">
+           <br>
+           <span id="msg"></span>
+           <br><br>
+
+
+          <button type="button"class="btn btn-primary" onclick="return important()">Submit</button>
+          
+
+           </form>
+        </div>
+
+        </div>
+
+
+         <script src="js/style.js"></script>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

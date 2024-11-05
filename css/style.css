@@ -1,0 +1,429 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     font-family:Arial, Helvetica, sans-serif;
+     
+     
+
+}
+.clearfix::after{
+           content: "";
+           display:block;
+           clear:both;
+}
+
+header{
+     width:100%;
+     background-image: url("../img/slider-bg.jpg");
+     color:#fff;
+     height:700px;
+}
+nav{
+     width:100% ;
+     height:50px;
+     
+     
+}
+nav .logo{
+      float:left;
+      margin-left:10px;
+      margin-top:10px;
+}
+nav i{
+     float:right;
+     margin-right:10px;
+     margin-top:10px;
+     background-color: #fff;
+     color:black;
+     padding:8px;
+     border-radius: 100%;
+     
+}
+nav a :hover{
+        background-color:black;
+        color:white;
+        
+}
+
+
+.box{
+      position:relative;
+      top:20%;
+      padding-left:70px;
+}
+.box h2{
+        font-size:50px;
+}
+.box p{
+       line-height:25px;
+       margin-top:20px;
+       margin-bottom:20px;
+}
+.buttn{
+      width: 115px;
+      height:30px;
+      border:1px solid orangered;
+      color:orangered;
+      background-color: transparent;
+}
+
+/* index2 */
+.icon {
+       background-attachment: fixed;
+}
+
+
+
+
+/* Aboutt Us */
+
+.about-us{
+        
+         width:100%;
+     
+}
+
+
+.left-box{
+        width:40%;
+        height:600px;
+        padding:80px;
+        float:left;
+        margin-left:50px;
+        
+
+}
+.black-box{
+        width:70%;
+        height:300px;
+        background-color: black;
+}
+ 
+.left-box img{
+        width:120%;
+        position:relative;
+        top:-270px;
+        left:30px;
+}
+
+
+/* right-box */
+
+.Right-box{
+      float:right;
+      width:45%;
+      padding:80px; 
+      margin-top:60px;
+      margin-right:170px;
+      
+       
+}
+.Right-box h1{
+        font-size:30px;
+        line-height:50px;
+}
+.Right-box p {
+        text-align:justify;
+        font-size:15px;
+        line-height: 30px;;
+}
+.Right-box button{
+       margin-top:30px;
+       width:160px;
+       color:#fff;
+       background-color: orangered;
+       height:45px;
+       border:0px;
+       
+}
+
+
+/* images startt */
+.images{
+         clear:both;
+         width:100%;
+}
+.imgs{
+        width:80%;
+        margin:0 auto;
+        background-color: red;
+}
+.left-images {
+          width:50%;
+          float:left;
+}
+.left-images img{
+          width:100%;
+          
+}
+.right-images {
+          width:45%;
+          height: 500px;
+          float:left;
+          margin-left:30px;
+          margin-bottom:80px;
+          
+          
+}
+ .right-images .img-box1{
+          width:100%;
+          height:250px;
+          margin-bottom:30px;
+          
+}
+.img-box1 img{
+          width:100%;
+
+}
+.right-images .img-box2{
+            width:100%;
+            height:250px;
+            
+}
+.img-box2 img{
+          width:100%;
+          
+}
+
+
+/* Brides start */
+
+.Brides{
+        clear:both;
+        width:100%;
+        
+
+        
+         
+}
+.Brides-bride{
+          width:80%;
+          margin:0 auto;
+          
+          
+}
+.left-bride{
+    width:45%;
+    float:left;       
+         
+}
+.left-bride img{
+         width:100%;
+}
+.right-bride{
+         width:45%;
+         float:right;
+         margin-right:50px;
+         margin-bottom:40px;
+         
+}
+.right-bride img{
+          width:100%;
+}
+
+.left-bride .b1,.right-bride .b1{
+           width:50px;
+           height:50px;
+           background-color: #000;
+           color:#fff;
+           text-align:center;
+           border:2px solid #fff;
+           padding:10px;
+           font-size:14px;
+           font-weight:700;
+           position:relative;
+           top:-40px;
+           left:20px;
+}
+
+.left-bride h3, .right-bride h3 {
+           margin-top:0px;
+           margin-left:15px;
+           line-height:30px;
+           position: relative;
+           top:-20px;
+           font-weight: 900;
+}
+
+.left-bride p,.right-bride p {
+           margin-left:15px;
+           line-height:20px;
+           margin-top:0px;
+           color:grey;
+           position: relative;
+           top:-15px;
+}
+.left-bride .Read-More ,.right-bride .Read-More{
+          width:110px;
+          height:45px;
+          border:1px solid grey;
+          background-color: #ffff;
+          margin-left:15px;
+          color:grey;
+}
+
+
+/* Testimonial */
+
+.testimonial{
+         margin:30px;
+         margin-bottom:50px;
+         padding:100px;
+}
+
+#myCarousel{
+           width:80%;
+           margin:0 auto;
+           background-color: #000;
+           border-radius:10px;
+}
+.images1 {
+          padding:70px;
+          margin-left:30%;
+          height:300px;
+          
+          
+}
+.images1 img{
+          width:40%;
+          border:5px solid gray;
+          margin-bottom:40px;
+          
+}
+
+/* carousel caption */
+
+.caption1 h3 {
+         color:orangered;
+}
+
+
+/* footer starts */
+
+.footer{
+         width:100%;
+         background-color: #000;
+
+}
+.footer-black{
+         width:80%;
+         height:500px;
+         background-color: #000;
+         color:#fff;
+         margin:0 auto;
+        
+}
+.email-box {
+         margin-top:30px;
+         
+}
+.email-box input{
+       width:70%;
+       height:60px;
+       background-color: transparent;
+               
+}
+.email-box i{
+         background-color: orangered;
+         width:50px;
+        padding:23px;
+}
+.email-box  span{
+          margin-left:25px;
+          border:1px solid grey;
+          padding:20px;
+          font-size: 15px;
+}
+.email-box input[type=text]:hover{
+        border:3px solid orangered ;
+        
+
+}
+.fafa-arrow-right :hover{
+         color:red;
+}
+
+.main-box{
+         margin-top:110px;
+}
+
+.footer-black .box1{
+          width:15%;
+          float:left;
+          margin-left:50px;
+          
+        
+}
+.footer-black .box1 h3{
+         font-weight:700px;
+         font-size: 30px;
+}
+.footer-black .box1 ul{
+         list-style: none;
+         font-size:20px;
+}
+/* box2 starts */
+.footer-black .box2{
+         width:30%;
+         margin-left:30px;
+         float:left;
+}
+.box2 h3{
+         margin-right:130px;
+}
+.part1{
+         display:flex;
+         
+}
+.part1 img{
+         margin-left:60px;
+}
+.part1 p{
+         margin-left:20px;
+}
+.part2 {
+         display:flex;
+         margin-top:30px;
+}
+.part2 img{
+         margin-left:60px;
+         padding:20px;
+         
+}
+.part2 p {
+         margin-left:20px;
+}
+.box2 img{
+         width:20%;
+         background-color: #fff;
+}
+
+/* box3  */
+
+.box3 {
+         float:left;
+         width:20%;
+         margin-left:20px;
+         
+}
+.box3 h3{
+         margin-right:155px;
+         
+}
+.box3 p {
+         text-align: justify;
+         font-size:12px;
+         line-height:20px;
+}
+
+/* box4 */
+
+.box4 {
+     float:left;
+     margin-left:50px;
+     margin-top:10px;
+}
+.box4 h4{
+         
+}
